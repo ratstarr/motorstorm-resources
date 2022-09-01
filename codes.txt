@@ -1,0 +1,525 @@
+RATSTARS MEMORY EDITING NOTES 2020
+
+RPCS3 Range - 430000000 - 440000000
+
+Tom Macca (atv01_LV02) - 336F5504C (RPCS3-BCES00006)
+Bridgewater Dunn (bike02_LV02) - 336F4F40F (RPCS3-BCES00006)
+current vehicle - 436F4E108 (RPCS3-BCES00006)
+current driver - 436F4AF30 (RPCS3-BCES00006)
+_LV - 410044780 (RPCS3-BCES00006)
+Vehicle Class - 410002390 (RPCS3-BCES00006)
+
+0x5086D2B2 - dds textures
+0x5086F4D7 - list of cars etc
+0x56ec3378 - current vehicle (MSComplete JP - 0x56f4ad70 )
+0x56eb0610 - current driver (MSComplete JP - 0x56f4b2d0 )
+0x56EC4474 - AI List (MSComplete JP - 0x56f4f64f )
+0x1003f793 - Current vehicle LV (MSComplete JP - 0x10044781 )
+0x1000f060 - tracks
+0x10005010 - mudpool 
+0x56ec5044 - 3d sky
+
+bike01_LV01 - Blue Indiana (Hannibal Figini)
+bike01_LV02 - Green Bandit Indiana
+bike01_LV03 - Red/Black Indiana (Jaka Rickson)
+bike01_LV04 - Red/Black Indiana (Briggs)
+bike01_LV05 - Green Numskull Indiana (Candy Buzzbomb)
+bike01_LV06 - Yellow Bandit Indiana
+bike01_LV07 - Red GL Indiana
+bike01_LV08 - Grey Indiana (Travis Maelstrom)
+
+bike02_LV01 - Yellow Monarch (Dr A Melaranagi)
+bike02_LV02 - Blue Monarch (Bridge waterdunn)
+bike02_LV03 - Red Monarch (Hazel)
+bike02_LV04 - White/Orange Monarch (Holly Macca)
+bike02_LV05 - Green monarch 
+bike02_LV06 - Yellow monarch (Daddy Fawley)
+bike02_LV07 - hydrozade monarch
+bike02_LV08 - poison monarch
+
+bike03_LV01 - blue wildcat
+bike03_LV02 - Yellow wildcat (Lucy Xian)
+bike03_LV03 - Red Wildcat (Chris McKinney)
+bike03_LV04 - Orange Wildcat (Lothar Kessel)
+bike03_LV05 - Green Wildcat
+bike03_LV06 - Numskull Wildcat (Kung Go Nuo)
+bike03_LV07 - purple wildcat
+bike03_LV08 - black wildcat
+bike03_LV09 - Big Eye Bunny Wildcat
+bike03_LV10 - Crazy Samurai Wildcat
+bike03_LV11 - Quick Foot Wildcat
+
+bike04_LV01 - red flag enduro
+bike04_LV02 - Green flag enduro (Unused Livery)
+bike04_LV03 - Black/Red enduro (Renita Zelada)
+bike04_LV04 - Orange Enduro (DJ Ste Kilburn)
+bike04_LV05 - Rockfuel Enduro (Chunky Baxter)
+bike04_LV06 - black/yellow bandit enduro
+bike04_LV07 - Green Enduro (Mike the Bike)
+bike04_LV08 - yellow enduro
+bike04_LV09 - Green/White Enduro (The Beast)
+bike04_LV10 - Numskull Enduro 
+
+bike05_LV01 - White/Black twinblade
+bike05_LV03 - Orange Twinblade 
+bike05_LV04 - White Twinblade
+bike05_LV05 - Yellow twinblade (ZuZu Plumpton)
+bike05_LV06 - Blue Twinblade (Chod Chodder)
+bike05_LV07 - Grey/Black Twinblade (Mat Mabe)
+bike05_LV08 - Green Twinblade (Andy G)
+bike05_LV09 - Black/Orange twinblade (Tricky Vicky)
+
+bike06_LV01 - Carbon Oshizushi
+bike06_LV02 - Red/White Oshizushi
+bike06_LV03 - Pink Oshizushi
+
+bike07_LV01 - Grey Numskull Roadhog
+bike07_LV02 - Rusty Roadhog
+bike07_LV03 - Red/Black Roadhog
+
+bike08_LV01 - Grey Razor
+bike08_LV02 - Black/Red Razor
+bike08_LV03 - Crazy Samuria Razor
+
+atv01_LV01 - Blue Bushfire
+atv01_LV02 - White Striped Bushfire
+atv01_LV03 - Yellow Bushfire (Evalyn Malachite)
+atv01_LV04 - Green Bushfire (Angel Pi)
+atv01_LV05 - Grey/Black Bushfire (Hank Cooper)
+atv01_LV06 - Blue Bushfire (Yacine Salmi)
+atv01_LV07 - Rusty Bushfire
+atv01_LV09 - Red Bushfire (Salim Siwani)
+
+atv02_LV01 - White Stuuka (Oscar Gratz)
+atv02_LV02 - Blue Stuuka (Dave Galloway)
+atv02_LV03 - Red/White Stuuka (Jess Johnson)
+atv02_lv04 = green stuuka
+atv02_LV06 - White/Blue Stuuka (Svetlana)
+atv02_lv07 = black stuuka
+atv02_LV08 - Orange Stuuka (BigShox)
+atv02_lv09 = white stuuka
+
+atv03_LV01 - Green Phoenix (Drew Baird)
+atv03_LV02 - Red Phoenix (Willma Decker)
+atv03_LV03 - Yellow Phoenix
+atv03_LV04 - Red/Black Phoenix (Baz Johnson)
+atv03_LV05 - Green/Yellow Phoenix (Lucy Diamond)
+atv03_LV06 - American Dream Phoenix
+atv03_LV07 - Camo Phoenix
+atv03_LV08 - US Airforce Phoenix (Jo cash)
+atv03_LV09 - Numskull Phoenix
+atv03_LV10 - Crazy Samuria Phoenix
+atv03_LV11 - Big Eye Bunny Phoenix
+atv03_LV12 - Quick Foot Phoenix
+
+atv04_LV01 - Black Caliano
+atv04_LV02 - Green Caliano
+atv04_LV03 - White/Black Caliano (Oevynd Aartson)
+atv04_LV04 - Orange/Black Caliano (Simone Chadwick)
+atv04_LV05 - Red/Black Caliano (Dounia Loudiyi)
+atv04_LV06 - Red Caliano
+atv04_LV07 - Blue/Yellow Caliano (Whistler Brown)
+
+atv05_LV01 - Green Sabretooth
+atv05_LV02 - Blue/Pink Shinji Sabretooth
+atv05_LV03 - Brown/Red Sabretooth (Gedi Minas) 
+atv05_LV04 - Blue Sabretooth (Pasha Svetna)
+atv05_LV05 - Red Sabretooth (Amrit)
+atv05_LV06 - Orange/White Sabretooth (Crazy Hal S.)
+atv05_LV07 - Yellow Numskull Sabretooth
+atv05_LV08 - Teal Sabretooth (Mick Hocking)
+
+atv06_LV01 - Purple Rascal
+atv06_LV02 - Red/White Rascal
+atv06_LV03 - Yellow Rascal
+
+atv07_LV01 - Rusty Grey Mudslide
+atv07_LV02 - Blue/Yellow Mudslide
+atv07_LV03 - QuickFoot Mudslide
+
+racetruck01_LV01 - Yellow/Black/Rusted Robusto (Gaston Le Choux)
+racetruck01_LV02 - Blue/White Robusto (Jackson Stone)
+racetruck01_LV03 - Rusty Robusto (Gascon Pillion)
+racetruck01_LV04 - Orange/Black Robusto
+racetruck01_LV05 - Fire Robusto
+racetruck01_LV06 - White/Grey/Rusted Robusto (Ivan McCloskey)
+racetruck01_LV07 - White Russian Robusto
+racetruck01_LV08 - Halloween Robusto 
+
+racetruck02_LV01 - Fear Kalahari (King Leo)
+racetruck02_LV02 - Green/Yellow DP kalahari
+racetruck02_LV03 - Blue/Green/White/Red Marathon Kalahari (Bazil Rustchynsky)
+racetruck02_LV04 - blue kalahari (Sigmund Stone)
+racetruck02_LV05 - Orange Bull Kalahari
+racetruck02_LV06 - Red Marathon Kalahari (Andrej Svoboda)
+racetruck02_LV07 - Leviathan Livery (Reverend Black)
+racetruck02_LV08 - Ravine Kalahari
+
+racetruck03_LV01 - Red/White Numskull Iguana
+racetruck03_LV02 - White/Frost Iguana
+racetruck03_LV03 - Yellow/Red Iguana (B.D Marsden)
+racetruck03_LV04 - Checked MotoShoX Iguana
+racetruck03_LV05 - Purple Gasoprine Iguana (Miguel Keenanan)
+racetruck03_LV06 - Green Iguana (Chloe Macca)
+racetruck03_LV07 - White Free West Iguana (Henry T. Pops)
+
+racetruck04_LV01 - White/Green/Blue Daimyo (Hal Yoshina)
+racetruck04_LV02 - Yellow/White Ravine Daimyo
+racetruck04_LV03 - Yellow/Grey Daimyo (Darius Zvorsky)
+racetruck04_LV04 - D. Bex Livery (Delbert Wollman)
+racetruck04_LV06 - Blue Camo Daimyo (Flameboy)
+racetruck04_LV07 - Red Daimyo (Laura Gibbons)
+racetruck04_LV08 - Blue Bunny Daimyo
+racetruck04_LV09 - Yellow Radio Storm Daimyo
+racetruck04_LV10 - Numskull Daimyo 
+racetruck04_LV11 - Quick Foot Daimyo
+racetruck04_LV12 - Crazy Samurai Daimyo
+
+racetruck05_LV01 - Gold/Waves Vulcan
+racetruck05_LV02 - Yellow/Red/Blue Vulcan
+racetruck05_LV03 - Red/White Vulcan (Lady Grey)
+racetruck05_LV04 - Blue/White Vulcan
+racetruck05_LV05 - Orange/Black Vulcan (Mrs Dread)
+racetruck05_LV06 - Yellow/Black Vulcan (Barlos the Jackal)
+racetruck05_LV07 - Green/Red Vulcan (Unused Livery)
+racetruck05_LV08 - White/Orange Vulcan (Lain "Revs" Ridout)
+racetruck05_LV09 - Big Eye Bunny Vulcan
+
+racetruck07_LV01 - Rusty Capitano
+racetruck07_LV02 - Striped Capitano
+racetruck07_LV03 - Numskull Capitano
+
+
+buggy01_LV01 - Orange/White Carabid (Tom Pullan)
+buggy01_LV02 - Dark Blue Carabid (Mira Hawk)
+buggy01_LV03 - Orange Carabid (Riza Shadmahar)
+buggy01_LV04 - Black/Yellow Carabid
+buggy01_LV05 - Desert Nightmare Carabid
+buggy01_LV06 - White/Purple Carabid (Danger Kenwright)
+buggy01_LV07 - Blue/Yellow Zero Carabid
+buggy01_LV08 - Green/Yellow Carabid (Randi Vedeld)
+
+buggy02_LV01 - Black/Grey Typhoon (Leanne Dempsey)
+buggy02_LV02 - Red Typhoon (Greg Chan)
+Buggy02_lv03 - Classic Typhoon (yellow)
+buggy02_LV04 - Pink Typhoon
+buggy02_LV05 - Blue Typhoon (Ariel)
+buggy02_LV06 - Red/Black Typhoon
+buggy02_LV07 - White Typhoon (Free West)
+buggy02_LV08 - White/Green/Blue Typhoon (Mr SUV)
+
+buggy03_LV01 - Green/White BXR (Pip Green)
+buggy03_LV02 - Orange/White BXR (G.R Jono)
+buggy03_LV03 - Purple Dirt Star BXR
+buggy03_LV04 - Zebra BXR
+Buggy03_LV05 - Red BXR
+buggy03_LV06 - Pink And white BXR (Rachel Norton)
+buggy03_LV07 - Savage BXR (Savage)
+
+buggy04_LV01 - Green/White Rattler (Claire Marie)
+buggy04_LV02 - Rusty Orange/Red Rattler (Mike Long)
+buggy04_LV03 - White/Red/Orange Rattler (Anju)
+buggy04_LV04 - 
+buggy04_LV05 - Blue Karman Rattler
+buggy04_LV06 - JCO Rattler (Orange/Yellow)
+buggy04_LV07 - Red and Yellow Rattler (Sir Jekyl)
+buggy04_LV08 - Numskull Rattler (The Chairman)
+buggy04_LV09 - Pink Japanese Rattler
+
+buggy05_LV01 - Blue Super BXR (Nate Lynott)
+buggy05_LV02 - Red/White RSR Super BXR
+buggy05_LV03 - Blue Super BXR (Rueben Smith)
+buggy05_LV04 - Pink Super BXR (Cleo Mulvey)
+buggy05_LV05 - Blue Poison Super BXR
+buggy05_LV07 - X Super BXR (Lucky Jack Flynn)
+buggy05_LV08 - Grey/Red Super BXR
+buggy05_LV09 - Numskull Super BXR
+buggy05_LV10 - Big Eye Bunny Super BXR
+buggy05_LV11 - Crazy Samuria Super BXR
+buggy05_LV12 - QuickFoot Super BXR
+
+buggy06_LV01 - Yellow RSR Rollcage
+buggy06_LV02 - Light blue Rollcage
+buggy06_LV04 - White/Black Rollcage
+
+
+rallycar01_LV01 - Striped yellow/black Surger (Toby Mfana)
+rallycar01_LV02 - Blaze Surger
+rallycar01_LV03 - Blue/White Striped Surger (Francis Soloman)
+rallycar01_LV04 - Pimp Surger (Bob Fawley)
+rallycar01_LV05 - Army Spark Leads Surger
+rallycar01_LV06 - Marshall Surger (The Marshall)
+rallycar01_LV08 - American Surger (Gillian Kershaw)
+rallycar01_LV09 - Police Surger
+
+rallycar02_LV01 - White/Red/Blue Gagliano (Wild Mark)
+rallycar02_LV02 - White/Red Gagliano (Kerry Hill)
+rallycar02_LV03 - Grey/Green Encol Design Gagliano
+rallycar02_LV04 - Green IKA Gagliano
+rallycar02_LV05 - White/Red RSR Gagliano
+rallycar02_LV06 - Yellow Gagliano (Evie Kirkland)
+rallycar02_LV07 - White Spider Gagliano (Tommy Knocker)
+rallycar02_LV08 - Green #18 Gagliano (Magenta Buttercup)
+rallycar02_LV09 - Yellow/White Gagliano (Livery only seen in loading screen/Kyra Embley)
+rallycar02_LV10 - Blue/White Desert Scorpion Gagliano (Unused Livery/Ellie Belly)
+
+rallycar03_LV01 - white race head
+rallycar03_LV02 - grey numskull
+rallycar03_LV03 - green/red renegade (Will Storer)
+rallycar03_LV04 - Black/Blue renegade (Redd Rascal)
+rallycar03_LV05 - Yellow/Blue Renegade (Dimitri Molotov)
+rallycar03_LV06 - Yellow/Black renegade (Juliet Bayliss)
+rallycar03_LV07 - Crazy Samurai Renegade
+rallycar03_LV08 - yellow Quickfoot / american flag / dirtstar
+rallycar03_LV09 - QuickFoot Renegade
+rallycar03_LV10 - Numskull Renegade
+rallycar03_LV12 - Big Eye Bunny Renegade
+
+rallycar04_LV01 - Yellow/Black Ronin (Mad Kelly W.)
+rallycar04_LV02 - White/Teal-ish Ronin (Cannon Brown)
+rallycar04_LV03 - Black/Blue ronin
+rallycar04_LV04 - Grey samurai Ronin (Speedbump)
+rallycar04_LV06 - Blue/White striped Ronin (Niagara Gold)
+rallycar04_LV07 - Pink ronin
+rallycar04_LV08 - Yellow pearlecent ronin (Travis Ryan)
+rallycar04_LV09 - Grey/Red Japanese ronin
+rallycar04_LV10 - Camo Ronin (Joshua Kirkland)
+
+rallycar05_LV01 - black dragon revo (Meggan Fitz)
+rallycar05_LV02 - Green revo
+rallycar05_LV03 - White/blue/Red Revo (Stitch)
+rallycar05_LV04 - White/Blue/Black SigmaRD revo
+rallycar05_LV05 - Orange Revo (Louhi)
+rallycar05_LV06 - Black and Blue revo (Revs Ridout)
+rallycar05_LV07 - Evil Wench Revo (Evil Wench)
+rallycar05_LV08 - Orange Hydrozade revo
+rallycar05_LV09 - Red and White Revo (Skully)
+rallycar05_LV10 - Orange/Black revo (Hunter)
+rallycar05_LV11 - Purple/White Sonix revo
+rallycar05_LV14 - Chinese New Years Revo
+
+rallycar06_LV02 - Pink/White Flames Domino
+rallycar06_LV04 - Rusty Domino
+rallycar06_LV05 - Blue Domino
+
+rallycar07_LV01 - Yellow V8
+rallycar07_LV02 - White/Black V8
+rallycar07_LV03 - Red/Yellow V8
+
+rallycar09_LV01 - Camo 85
+rallycar09_LV02 - Grey/Black/Red 85
+rallycar09_LV03 - Brown 85
+
+mudplugger01_lv01 - Orange Slugger
+mudplugger01_lv02 - Red/Black Slugger
+mudplugger01_LV03 - Green Camo Slugger
+mudplugger01_LV04 - Yellow Slugger (Misty Swamp)
+mudplugger01_lv05 = blue Slugger
+mudplugger01_LV06 - Orange Slugger (Ryan Cahill)
+mudplugger01_LV07 - Green Slugger (Leethal Docherty)
+
+mudplugger02_LV01 - Blue Asylum (Jock)
+mudplugger02_LV02 - Yellow Asylum (Victor Truscott)
+mudplugger02_LV03 - Red Asylum
+mudplugger02_LV04 - Yellow/Black Asylum (Kid Million)
+mudplugger02_lv05 = purple Asylum
+mudplugger02_LV06 - White Horns Asylum (Hashim Al-Azm)
+mudplugger02_lv07 = green Asylum
+mudplugger02_LV08 - Blue Asylum (Doc Hock)
+
+mudplugger03_LV01 - Red/White bushwacker
+mudplugger03_LV02 - Blue/White/Red Panzer bushwacker
+mudplugger03_LV03 - Orange bushwacker (Dustgirl)
+mudplugger03_LV04 - Blue/White Bushwacker (Max Hollywood)
+mudplugger03_LV05 - Blue/White/Grey Bushwacker (Lillian Wald)
+mudplugger03_LV06 - Gold Bushwacker (Unused Livery)
+mudplugger03_LV07 - Orange/Green Bushwacker (Floella Walkyr)
+mudplugger03_LV08 - Blue Bushwacker (Ben Kirkland)
+mudplugger03_LV09 - Orange Big Joe Bushwacker (Monte Dog)
+mudplugger03_LV10 - white/black bushwacker
+mudplugger03_LV13 - Numskull Bushwacker
+mudplugger03_LV14 - Big Eye Bunny Bushwacker
+mudplugger03_LV15 - Crazy Samuria Bushwacker
+mudplugger03_LV16 - QuickFoot Bushwacker
+
+mudplugger04_LV01 - British Bulldog
+mudplugger04_LV03 - Quickfoot Bulldog
+mudplugger04_LV04 - Grey/Red/Orange Bulldog
+mudplugger04_LV05 - White/Green Bulldog (Lord Jim)
+mudplugger04_LV06 - White/red Bulldog (Mrs SUV)
+mudplugger04_LV08 - Green Bulldog (Robbie T)
+mudplugger04_LV09 - Yellow/Black Bulldog (Russel Payne/Unused Livery)
+
+mudplugger05_LV01 - Brown Camo Jackhammer
+mudplugger05_LV02 - Navy Jackhammer (Pop Johnstone)
+mudplugger05_LV03 - Candy Red Jackhammer
+mudplugger05_LV04 - Yellow Jackhammer (Mistress Stern)
+mudplugger05_LV06 - Camo Jackhammer (Greg Rasputin II)
+mudplugger05_LV08 - Black/Yellow Jackhammer (Emily Misery)
+mudplugger05_LV09 - Orange/Black Jackhammer
+
+mudplugger06_LV01 - Orange Adventure
+mudplugger06_LV02 - Black/Orange Adventure
+mudplugger06_LV03 - Green Adventure
+
+mudplugger07_LV01 - Rusted Varjack
+mudplugger07_LV02 - Black Varjack
+mudplugger07_LV03 - Big Eye Bunny Varjack
+
+bigrig01_LV01 - Green Motorstorm Livery
+bigrig01_LV02 - Rocket Girl Varadero (Petulia Oil)
+bigrig01_LV04 - Spark Leads grey Livery
+bigrig01_LV05 - Red Collier Livery (Johnny R)
+bigrig01_LV06 - American Dream Livery
+bigrig01_LV07 - Green Livery (Pete S)
+
+bigrig02_LV01 - Black/Red Drago
+bigrig02_LV02 - Blue/White Drago
+bigrig02_LV03 - White and Red/Yellow Drago (Dirk Dashwood)
+bigrig02_LV05 - Red/White Checkered (Lizzy Gripping)
+bigrig02_LV06 - Grey Rusted Camo Drago (Benno)
+bigrig02_LV07 - Construction Livery (Steve Humphries)
+bigrig02_LV08 - Fire Truck Drago
+bigrig02_LV09 - Clown livery (The Clown)
+
+bigrig03_LV01 - Lightning Thunderchief (Njarl Wolfraven)
+bigrig03_LV02 - Red Marathon Thunderchief (Jane Doe)
+bigrig03_LV03 - White w/ black stripes (Josie Packard)
+bigrig03_LV04 - Unused Green/White Livery (Smoggy Bottom)
+bigrig03_LV05 - Yellow numskull Thunderchief
+bigrig03_LV06 - Gold Bandit Thunderchief (Marko McKormack)
+bigrig03_LV07 - Pink Jimbo Thunderchief
+bigrig03_LV08 - Yellow with Blue flames Thunderchief (Paul Frewin)
+bigrig03_LV09 - Grey/Blue Thunderchief
+bigrig03_LV10 - Big Eye Bunny Thunderchief
+bigrig03_LV11 - Numskull Thunderchief
+bigrig03_LV12 - Crazy Samurai Thunderchief
+bigrig03_LV13 - Quick Foot Thunderchief
+
+bigrig04_LV01 - White Racewheels Viking
+bigrig04_LV02 - Grey/White Tysoyoshi Viking (Elf Boarman)
+bigrig04_LV03 - Blue/White/Red viking
+bigrig04_LV04 - Red Accelereighty viking (Barb Sharp)
+bigrig04_LV06 - Yellow Dirt Star viking (Chuckles)
+bigrig04_LV07 - Yellow Hottman viking
+bigrig04_LV08 - 66Bear livery viking (Willy Wilson)
+bigrig04_LV09 - White 54 viking (Gibbo)
+
+bigrig05_LV01 - Green/Black Invader (Obie O'Brian)
+bigrig05_LV02 - White/Blue Invader
+bigrig05_LV03 - Red/Yellow Invader
+bigrig05_LV04 - Pink/Black Invader (Daniella Charm)
+bigrig05_LV05 - Blue Invader (Carlos Diego)
+bigrig05_LV06 - Purple and Yellow Invader (Mickey H)
+bigrig05_LV08 - Red/Blue Invader
+
+bigrig06_LV01 - Red/Yellow
+bigrig06_LV02 - Orange/Grey accelereighty
+bigrig06_LV03 - Yellow/Torquise Firefuel 
+
+bigrig07_LV01 - State Prison Bus
+bigrig07_LV02 - Hippie Bus
+bigrig07_LV03 - Graffiti Bus
+
+bigrig08_LV01 - Grey Star Governor
+bigrig08_LV02 - Skulls Governer
+bigrig08_LV03 - Orange/Black Cowboy Governer
+
+m_x_movie_rig_LV01 - 06 (coolest drivers in motorstorm, hands down)
+01 = White
+02 = Yellow/Red
+03 = Red
+04 = Black
+05 = Blue
+06 = Stars/Flag
+
+m_street_rig_LV01 - 07 
+01 = Red/Yellow
+02 = Light Green Army
+03 = Green army Stickers helmet
+04 = Red w/ White Strips
+05 = Dark green Army
+06 = Blue/Purple
+07 = Numskull Tan
+
+m_one_piece_rig_LV01 - 07
+01 = Orange/White
+02 = Grey
+03 = Red/Black
+04 = Yellow
+05 = Red
+06 = Orange
+07 = Black w/ Red Accents
+
+m_casual_rig_LV01 - 07
+01 = Grey/Black
+02 = Orange/Grey
+03 = Blue
+04 = Blue/Black
+05 = Orange
+06 = Black kinda worn out
+07 = Brown with Star on back
+
+m_sparco_rig_LV01 - 08
+01 = Greyish yellow
+02 = Greyish Blue Graffiti
+03 = Red/Black w/ Japanese + Stickers
+04 = Red/Blue/White
+05 = Green/Yellow/White
+06 = Green/Grey
+07 = Numskull Helmet / Skeleton
+08 = White / Light Blue
+
+m_exo_rig_LV01 - 07
+01 = Dark Blue
+02 = Green
+03 = Red Flame Helmet
+04 = Blue with Target on the back
+05 = Red with Stickers
+06 = Yellow with Flame Helmet
+07 = Red with striped Helmet
+
+f_street_rig_LV01 - 07
+01 = Red/white rockfuel
+02 = Red/Green rockfuel
+03 = Green
+04 = Pink/Black
+05 = Blue/Jeans (Gasmask)
+06 = Blue/Jeans (Butterfly?)
+07 = Brown
+
+f_sparco_rig_LV01 - 08
+01 = Blue IKA
+02 = Pink/White
+03 = Black with Yellow Accents
+04 = White/Black
+05 = Orange/Black
+06 = Red/White/Yellow
+07 = Red/Black
+08 = Black/Grey Shinji
+
+f_exo_rig_LV01 - 07
+01 = Yellow/Black
+02 = Red/Black
+03 = Green/Black
+04 = Yellow/Black/Red
+05 = Blue/Black
+06 = Yellow
+07 = Yellow/Orange
+
+f_casual_rig_LV01 - 07
+01 = Yellow
+02 = Orange Numskull 
+03 = Black (Flag/Stripes)
+04 = Green/Black
+05 = Red/Black
+06 = Red Checkered
+07 = Orange/Black
+
+f_one_piece_rig_LV01 - 
+01 = Yellow/Black
+02 = Green
+03 = Red/Black
+04 = Yellow
+05 = White/Black
+06 = Blue
